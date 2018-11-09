@@ -21,3 +21,7 @@ function appendKitten(name) {
   var moreKittens = [...kittens, name]
   return moreKittens;
 }
+function appendKitten(name) {
+  var moreKittens = [name, ...kittens]
+  return moreKittens;
+}
